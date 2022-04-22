@@ -1,0 +1,18 @@
+.dot {
+  height: 40px;
+  width: 40px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px;
+  cursor: pointer;
+  background-color: rgb(53, 134, 255);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#head {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  text-align: center;
+}

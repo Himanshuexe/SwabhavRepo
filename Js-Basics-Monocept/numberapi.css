@@ -1,0 +1,115 @@
+body {
+    background-color: #282828;
+    text-align: center;
+}
+
+#searchNumber {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2%;
+    height: 40px;
+}
+
+#searchNumber input {
+    width: 75%;
+    height: 40px;
+    padding-left: 2%;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#searchNumber input:focus {
+    outline: none;
+    border-color: #0d75ec;
+    padding-left: 2%;
+}
+
+#searchNumber button {
+    position: relative;
+    float: inline-start;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#results {
+    transition: ease-in;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    /* background-color: lightblue; */
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.result {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.result span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-overflow: clip;
+    text-align: left;
+}
+
+.result button {
+    background-color: #0a2ea4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+
+#myInput {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2%;
+    height: 20px;
+    text-align: left;
+    padding: 5px;
+}
+
+#myInput input {
+    width: 75%;
+    height: 20px;
+    padding-left: 2%;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#timeStamp {
+    color: white;
+}

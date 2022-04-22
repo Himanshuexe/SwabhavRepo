@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #a8c0ff;
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+}
+
+.panel {
+    background: #a8c0ff;
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
+    background: linear-gradient(to right, #3f2b96, #a8c0ff);
+    height: 100vh;
+    /* width: 80vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #BF3325; */
+}
+
+.question-container {
+    background: rgba(217, 214, 228, 0.12);
+    border-radius: 10px;
+    position: fixed;
+    top: 5%;
+    margin: 10px;
+    padding: 5px;
+    width: 90vw;
+    height: 10vh;
+    font-family: 'Comfortaa', cursive;
+    /* background-color: #c7dddf; */
+    line-height: 50px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.result {
+    margin: 10px;
+    padding: 5px;
+    width: 60vw;
+    height: 10vh;
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+    /* background-color: #353535; */
+    position: fixed;
+    bottom: 20%;
+    padding: 10px;
+    text-align: center;
+    /* display: none; */
+
+}
+
+.option-container {
+    display: flex;
+    position: fixed;
+    top: 30%;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 5px;
+    width: 82vw;
+    /* border-radius: 10px; */
+    height: 10vh;
+    background: rgba(217, 214, 228, 0.12);
+    border-radius: 10px;
+    /* background-color: #9eb1b3; */
+    padding: 50px;
+}
+
+.option {
+    padding: 10px;
+    width: 12vw;
+    height: 10vh;
+    font-size: larger;
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.option:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.navigation {
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0%;
+    width: 90vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #c7dddf; */
+    background: rgba(217, 214, 228, 0.12);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.evaluate,
+.next {
+    width: 20vw;
+    height: 8vh;
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 10px;
+}
+
+.evaluate {
+    padding: 5px;
+    background-color: #50DBB4;
+}
+
+.next {
+
+    /* color: white; */
+    padding: 5px;
+    background-color: #c0c0e3;
+}

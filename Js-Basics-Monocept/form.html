@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information:</legend>
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="uEmail">E-mail Address:</label><br>
+            <input type="email" id="uEmail" name="uEmail"><br>
+            <label for="userName">Username:</label><br>
+            <input type="text" id="userName" name="userName"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <label for="password">Confirm Password:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="user_gender">Gender:</label><br>
+            <input type="radio" id="male" name="user_gender" value="MALE">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="user_gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <label for="education">Choose your highest education:</label>
+            <select id="education" name="education">
+                <option value="" selected="selected" disabled="disabled">-- select one --</option>
+                <option value="No formal education">No formal education</option>
+                <option value="Primary education">Primary education</option>
+                <option value="Secondary education">Secondary education</option>
+                <option value="Bachelor's degree">Bachelor's degree</option>
+                <option value="Master's degree">Master's degree</option>
+            </select><br><br>
+
+            <label for="languages">Choose the languages you are proficient in:</label><br>
+            <input type="checkbox" id="language1" name="language1" value="Java">
+            <label for="language1"> Java</label><br>
+            <input type="checkbox" id="language2" name="language2" value="C">
+            <label for="language2"> C</label><br>
+            <input type="checkbox" id="language3" name="language3" value="Python">
+            <label for="language3"> Python</label><br><br>
+
+            <div>
+                <p>Rate your skills(1-10): <br>
+                    <label for="skill1">Communication:</label>
+                    <span>
+                        <input type="range" list="tickmarks"><br>
+                    </span>
+                    <label for="skill2">Team Collaboration:</label>
+                    <input type="range" list="tickmarks"><br>
+                    <label for="skill3">Programming Skills:</label>
+                    <input type="range" list="tickmarks"><br>
+
+                    <datalist id="tickmarks">
+                        <option value="0" label="0">0</option>
+                        <option value="10"></option>
+                        <option value="20"></option>
+                        <option value="30"></option>
+                        <option value="40"></option>
+                        <option value="50" label="5"></option>
+                        <option value="60"></option>
+                        <option value="70"></option>
+                        <option value="80"></option>
+                        <option value="90"></option>
+                        <option value="100" label="10"></option>
+                    </datalist><br><br>
+                </p>
+            </div>
+            <label for="message">Describe yourself:</label><br>
+            <textarea name="message" style="width:400px; height:200px; text-align: left;">
+             Type text here.
+            </textarea><br>
+
+            <input type="submit" value="Submit">
+            </<fieldset>
+    </form>
+    <script src="form.js"></script>
+</body>
+
+</html>

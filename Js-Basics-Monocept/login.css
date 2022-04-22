@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(218, 245, 171);
+}
+
+.form-rounded {
+    border-radius: 1rem;
+}
+
+#userName {
+    top: 5%;
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px;
+    position: fixed;
+    left: 8%;
+    height: 40px;
+    text-align: justify
+}
+
+#userPw {
+    top: 5%;
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px;
+    position: fixed;
+    right: 30%;
+    height: 40px;
+    text-align: justify
+}
+
+#login_btn {
+    top: 5%;
+    width: 10%;
+    margin: 0 auto;
+    padding: 5px;
+    position: fixed;
+    right: 18%;
+    height: 38px;
+}
