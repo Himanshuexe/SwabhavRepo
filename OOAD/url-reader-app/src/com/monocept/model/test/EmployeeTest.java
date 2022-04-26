@@ -4,7 +4,8 @@ import com.monocept.model.*;
 
 public class EmployeeTest {
 	public static void main(String[] args) {
-		DataAnalyser analyser = new DataAnalyser(new URLReader("https://swabhav-tech.firebaseapp.com/emp.txt"));
+//		DataAnalyser analyser = new DataAnalyser(new URLReader("https://swabhav-tech.firebaseapp.com/emp.txt"));
+		DataAnalyser analyser = new DataAnalyser(new UrlStreamReader("https://swabhav-tech.firebaseapp.com/emp.txt"));
 		System.out.println("Details of CEO:\n" + analyser.findTheCEO() + "\n" + analyser.jobWiseCount());
 	}
 
