@@ -24,12 +24,14 @@ public class Folder implements IStorageItem {
 	}
 
 	@Override
-	public void showHierarchy() {
-		System.out.println("Folder name: " + getName() + " Level: " + getLevel() + "\nChildren of " + getName() + ": ");
-		for (IStorageItem item : children) {
-//			System.out.println("Name: " + item.getName() + ", Type: " + item.getClass().getSimpleName());
-			item.showHierarchy();
-		}
+	public void showHierarchy(int level) {
+
+		for (int i = 0; i < level; i++)
+			System.out.print("--| ");
+		System.out.println(name + " at Level " + level);
+
+		for (IStorageItem item : children)
+			item.showHierarchy(level + 1);
 	}
 
 	public int getLevel() {
@@ -39,4 +41,5 @@ public class Folder implements IStorageItem {
 	public void setLevel(int level) {
 		this.level = level;
 	}
+
 }

@@ -1,4 +1,4 @@
-package com.monocept.hierarchy.test;
+	package com.monocept.hierarchy.test;
 
 import com.monocept.hierarchy.File;
 import com.monocept.hierarchy.Folder;
@@ -18,6 +18,8 @@ public class Test1 {
 		rootFolder.addChild(subFolder1);
 		rootFolder.addChild(subFolder2);
 
-		rootFolder.showHierarchy();
+		rootFolder.showHierarchy(0);
+		
+		
 	}
 }

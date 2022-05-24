@@ -20,7 +20,11 @@ public class File implements IStorageItem {
 	}
 
 	@Override
-	public void showHierarchy() {
-		System.out.println("File name: " + getName() + " File size: " + getSize());
+	public void showHierarchy(int level) {
+
+		for (int i = 0; i < level; i++)
+			System.out.print("--| ");
+		System.out.println("File name: " + getName() + " File size: " + getSize() + ", level " + level);
+
 	}
 }
